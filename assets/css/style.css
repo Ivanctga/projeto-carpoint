@@ -570,6 +570,13 @@ section {
     }
 }
 
+@media screen and (max-width: 550px) {
+    .blog-container {
+        display: grid;
+        grid-template-columns: 1 1fr;
+    }
+}
+
 @media screen and (max-width: 360px) {
     .search-box input {
         padding: 11px;
